@@ -6,6 +6,7 @@ Aditional features added:
 * tensorboard
 * callback (checkpoints)
 * graphs, historgrams, scalars, etc. visualization (extend to tSNE)
+* read weights and biases of each layer
 
 ## Model
 ![Model](./model.png)
@@ -14,7 +15,11 @@ Aditional features added:
 
 Explored **relu, swish** activation funcitons.
 
-**Dataset** used: CIFAR10
+**Dataset** used: CIFAR10, size: 50000 samples.
+
+## Validation
+
+With 10 epochs of training, accuracy obtained: 68.39%
 
 ## Toolchain
 * python - 3.8.5
